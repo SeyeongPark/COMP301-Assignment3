@@ -15,9 +15,9 @@ print("+-----------------+-----------------------+---------------+")
 # Open 'data.txt' file, and named it as 'data'
 with open('data.txt') as data:   
     # Print each lines of 'data'  
-    for i in data:
+    for line in data:
         # Split 'data'
-        i = i.strip().split(',')
+        line = line.strip().split(',')
         # Print contents of 'data' 
         print('|\t{:8s}  |   {}, {:8s}\t  |\t{}\t  |'.format(*i))
         print("+-----------------+-----------------------+---------------+")
