@@ -19,5 +19,5 @@ with open('data.txt') as data:
         # Split 'data'
         line = line.strip().split(',')
         # Print contents of 'data' 
-        print('|\t{:8s}  |   {}, {:8s}\t  |\t{}\t  |'.format(*i))
+        print('|\t{:8s}  |   {}, {:8s}\t  |\t{}\t  |'.format(*line))
         print("+-----------------+-----------------------+---------------+")
